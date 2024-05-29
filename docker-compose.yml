@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  wcc_widget:
+    build: . # build the Docker image 
+    container_name: wcc.widget
+    image: wcc.widget.i
+    ports:
+      - "6003:80"
+      - "6004:433"
