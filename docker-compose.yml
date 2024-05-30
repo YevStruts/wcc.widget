@@ -6,5 +6,5 @@ services:
     container_name: wcc.widget
     image: wcc.widget.i
     ports:
-      - "6003:80"
-      - "6004:433"
+      - "6005:80"
+      - "6006:433"
