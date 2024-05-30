@@ -20,7 +20,7 @@ namespace wcc.widget.kernel.Helpers
                 {
                     var config = new MapperConfiguration(cfg =>
                     {
-                        // cfg.CreateMap<Game, GameModel>().ReverseMap();
+                        cfg.CreateMap<LiveScore, LiveScoreModel>().ReverseMap();
                     });
 
                     instance = new Mapper(config);
