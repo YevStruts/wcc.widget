@@ -11,7 +11,7 @@ COPY ["wcc.widget.api/wcc.widget.api.csproj", "wcc.widget.api/"]
 COPY ["wcc.widget.kernel/wcc.widget.kernel.csproj", "wcc.widget.kernel/"]
 COPY ["wcc.widget.data/wcc.widget.data.csproj", "wcc.widget.data/"]
 # COPY ["wcc.widget.integrations/wcc.widget.integrations.csproj", "wcc.widget.integrations/"]
-COPY ["wcc.core/wcc.widget.csproj", "wcc.core/"]
+COPY ["wcc.widget/wcc.widget.csproj", "wcc.widget/"]
 RUN dotnet restore "wcc.widget.api/wcc.widget.api.csproj"
 COPY . .
 WORKDIR "/src/wcc.widget.api"
